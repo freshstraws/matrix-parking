@@ -42,6 +42,7 @@
       <div>
         <form class="contact-form" action="https://formspree.io/f/maewzzrk" method="POST">
           <input type="hidden" name="_subject" value="🅿️ Yêu cầu tư vấn mới từ website Matrix Parking">
+          <input type="hidden" name="thoi_gian_gui" id="thoi_gian_gui">
           <h3>Gửi yêu cầu tư vấn</h3>
           <div class="sub">Điền thông tin bên dưới, chúng tôi sẽ liên hệ lại trong thời gian sớm nhất.</div>
           <div class="form-row">
@@ -82,5 +83,20 @@
 </main>
 <div id="site-footer"></div>
 <script src="../assets/js/site.js"></script>
+<script>
+  /* Ghi đúng giờ Việt Nam (Asia/Ho_Chi_Minh) vào mỗi lượt gửi form */
+  (function () {
+    var form = document.querySelector(".contact-form");
+    var field = document.getElementById("thoi_gian_gui");
+    if (!form || !field) return;
+    function stamp() {
+      field.value = new Date().toLocaleString("vi-VN", {
+        timeZone: "Asia/Ho_Chi_Minh", hour12: false
+      }) + " (giờ VN)";
+    }
+    stamp();
+    form.addEventListener("submit", stamp);
+  })();
+</script>
 </body>
 </html>
