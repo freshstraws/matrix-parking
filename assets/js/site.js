@@ -24,7 +24,7 @@
     phoneRaw: "02838663582",
     email: "info@thiensu.com.vn",       // TODO: xác nhận email chính thức
     website: "thiensu.com.vn",
-    address: "72–74 Phổ Quang, P.2, Q.Tân Bình, TP.HCM",
+    address: "15 Kinh Dương Vương, Phường Phú Lâm, TP. Hồ Chí Minh",
     mst: "0308295645",
     zalo: "0918222474",                  // Mr. Tuấn - Phó Giám đốc Kinh doanh
     catalogue: "bao-gia/"                // TODO: thay bằng link file catalogue PDF khi có
