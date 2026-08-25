@@ -26,7 +26,7 @@
     website: "thiensu.com.vn",
     address: "72–74 Phổ Quang, P.2, Q.Tân Bình, TP.HCM",
     mst: "0308295645",
-    zalo: "0902000000",                  // TODO: thay số Zalo (di động) thật
+    zalo: "0918222474",                  // Mr. Tuấn - Phó Giám đốc Kinh doanh
     catalogue: "bao-gia/"                // TODO: thay bằng link file catalogue PDF khi có
   };
 
