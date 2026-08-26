@@ -20,8 +20,8 @@
 
   var CO = {
     name: "Công ty CP Đầu tư và Xây dựng Thiên Sứ",
-    phone: "(028) 3866 3582",
-    phoneRaw: "02838663582",
+    phone: "0918 222 474",
+    phoneRaw: "0918222474",
     email: "info@thiensu.com.vn",       // TODO: xác nhận email chính thức
     website: "thiensu.com.vn",
     address: "15 Kinh Dương Vương, Phường Phú Lâm, TP. Hồ Chí Minh",
