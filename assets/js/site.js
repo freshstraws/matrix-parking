@@ -35,11 +35,9 @@
     { page: "home", label: "Trang chủ", href: "index.html" },
     { page: "about", label: "Giới thiệu", href: "ve-chung-toi/" },
     { page: "product", label: "Sản phẩm", href: "san-pham/", children: [
-      { sub: "van-de", label: "Vấn đề", href: "san-pham/van-de.html" },
-      { sub: "giai-phap", label: "Giải pháp – Bãi đỗ xe thông minh", href: "san-pham/giai-phap.html" },
-      { sub: "cau-tao", label: "Cấu tạo hệ thống", href: "san-pham/cau-tao.html" },
-      { sub: "doi-tuong", label: "Đối tượng phù hợp", href: "san-pham/doi-tuong.html" },
-      { sub: "so-sanh", label: "So sánh các giải pháp", href: "san-pham/so-sanh.html" }
+      { sub: "bai-do-thong-minh", label: "Bãi đỗ xe thông minh", href: "san-pham/bai-do-xe-thong-minh.html" },
+      { sub: "cau-nang", label: "Cầu nâng đỗ xe 2 tầng", href: "san-pham/cau-nang.html" },
+      { sub: "cong-kiem-soat", label: "Cổng kiểm soát xe ra vào", href: "san-pham/cong-kiem-soat.html" }
     ]},
     { page: "pricing", label: "Báo giá", href: "bao-gia/", children: [
       { sub: "bang-gia", label: "Bảng giá dự án", href: "bao-gia/bang-gia.html" },
@@ -53,11 +51,9 @@
     { t: "Trang chủ", s: "Tổng quan giải pháp bãi đỗ xe thông minh", u: "index.html", k: "trang chu home tong quan" },
     { t: "Giới thiệu", s: "Thiên Sứ · 17 năm · 100+ dự án · năng lực ELV + M&E", u: "ve-chung-toi/", k: "gioi thieu cong ty thien su lich su nang luc" },
     { t: "Năng lực Công ty", s: "Đối tác ELV + M&E, vốn 100 tỷ", u: "ve-chung-toi/#nang-luc", k: "nang luc doi tac hikvision aruba viettel fpt" },
-    { t: "Vấn đề", s: "Đất chật, thiếu chỗ đỗ, chi phí hầm cao", u: "san-pham/van-de.html", k: "van de dat chat thieu cho do tang ham" },
-    { t: "Giải pháp – Bãi đỗ xe thông minh", s: "Matrix tháp, thang nâng, pallet", u: "san-pham/giai-phap.html", k: "giai phap matrix thang nang pallet thap" },
-    { t: "Cấu tạo hệ thống", s: "4 thành phần cốt lõi", u: "san-pham/cau-tao.html", k: "cau tao khung thep thang nang pallet cua" },
-    { t: "Đối tượng phù hợp", s: "Bệnh viện, chung cư, khách sạn, TTTM", u: "san-pham/doi-tuong.html", k: "doi tuong benh vien chung cu khach san" },
-    { t: "So sánh các giải pháp", s: "Matrix vs bãi đỗ truyền thống", u: "san-pham/so-sanh.html", k: "so sanh truyen thong tang ham" },
+    { t: "Bãi đỗ xe thông minh", s: "Bãi đỗ tự động Matrix — vấn đề, giải pháp, cấu tạo, đối tượng, so sánh", u: "san-pham/bai-do-xe-thong-minh.html", k: "bai do xe thong minh matrix xep hinh thang nang pallet van de giai phap cau tao doi tuong so sanh tang ham" },
+    { t: "Cầu nâng đỗ xe 2 tầng", s: "Gấp đôi chỗ đỗ trên cùng vị trí", u: "san-pham/cau-nang.html", k: "cau nang do xe 2 tang car lift nha pho showroom garage thuy luc" },
+    { t: "Cổng kiểm soát xe ra vào", s: "Barrier tự động + LPR nhận diện biển số", u: "san-pham/cong-kiem-soat.html", k: "cong kiem soat ra vao barrier lpr nhan dien bien so tinh phi" },
     { t: "Bảng giá dự án", s: "3 gói dịch vụ + bảng giá theo quy mô", u: "bao-gia/bang-gia.html", k: "bao gia bang gia goi dich vu epc" },
     { t: "Quy trình triển khai", s: "5 bước từ tư vấn đến vận hành", u: "bao-gia/quy-trinh.html", k: "quy trinh trien khai 5 buoc" },
     { t: "Tin tức", s: "Bài viết & dự án mới nhất", u: "tin-tuc/", k: "tin tuc bai viet du an" },
