@@ -209,7 +209,7 @@
 
   /* ─── SECTIONS ─── */
   .section {
-    padding: 56px 0;
+    padding: 20px 0;
   }
   .section-alt { background: white; }
 
@@ -1268,7 +1268,7 @@
   }
   @media (max-width: 600px) {
     .container { padding: 0 22px; }
-    .section { padding: 40px 0; }
+    .section { padding: 16px 0; }
     .problem-grid, .packages-grid, .targets-grid, .footer-grid { grid-template-columns: 1fr; }
     .nav-brand-text small { display: none; }
   }
