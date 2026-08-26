@@ -33,11 +33,7 @@
   // hrefs are RELATIVE (no leading slash); P() adds the base prefix.
   var MENU = [
     { page: "home", label: "Trang chủ", href: "index.html" },
-    { page: "about", label: "Về chúng tôi", href: "ve-chung-toi/", children: [
-      { sub: "gioi-thieu", label: "Giới thiệu về Công ty", href: "ve-chung-toi/gioi-thieu.html" },
-      { sub: "tam-nhin", label: "Tầm nhìn – Sứ mệnh – Giá trị cốt lõi", href: "ve-chung-toi/tam-nhin.html" },
-      { sub: "nang-luc", label: "Năng lực Công ty", href: "ve-chung-toi/nang-luc.html" }
-    ]},
+    { page: "about", label: "Giới thiệu", href: "ve-chung-toi/" },
     { page: "product", label: "Sản phẩm", href: "san-pham/", children: [
       { sub: "van-de", label: "Vấn đề", href: "san-pham/van-de.html" },
       { sub: "giai-phap", label: "Giải pháp – Bãi đỗ xe thông minh", href: "san-pham/giai-phap.html" },
@@ -55,9 +51,8 @@
 
   var INDEX = [
     { t: "Trang chủ", s: "Tổng quan giải pháp bãi đỗ xe thông minh", u: "index.html", k: "trang chu home tong quan" },
-    { t: "Giới thiệu về Công ty", s: "Thiên Sứ · 17 năm · 100+ dự án", u: "ve-chung-toi/gioi-thieu.html", k: "gioi thieu cong ty thien su lich su" },
-    { t: "Tầm nhìn – Sứ mệnh – Giá trị", s: "Định hướng của Thiên Sứ", u: "ve-chung-toi/tam-nhin.html", k: "tam nhin su menh gia tri cot loi" },
-    { t: "Năng lực Công ty", s: "Đối tác ELV + M&E, vốn 100 tỷ", u: "ve-chung-toi/nang-luc.html", k: "nang luc doi tac hikvision aruba viettel fpt" },
+    { t: "Giới thiệu", s: "Thiên Sứ · 17 năm · 100+ dự án · năng lực ELV + M&E", u: "ve-chung-toi/", k: "gioi thieu cong ty thien su lich su nang luc" },
+    { t: "Năng lực Công ty", s: "Đối tác ELV + M&E, vốn 100 tỷ", u: "ve-chung-toi/#nang-luc", k: "nang luc doi tac hikvision aruba viettel fpt" },
     { t: "Vấn đề", s: "Đất chật, thiếu chỗ đỗ, chi phí hầm cao", u: "san-pham/van-de.html", k: "van de dat chat thieu cho do tang ham" },
     { t: "Giải pháp – Bãi đỗ xe thông minh", s: "Matrix tháp, thang nâng, pallet", u: "san-pham/giai-phap.html", k: "giai phap matrix thang nang pallet thap" },
     { t: "Cấu tạo hệ thống", s: "4 thành phần cốt lõi", u: "san-pham/cau-tao.html", k: "cau tao khung thep thang nang pallet cua" },
