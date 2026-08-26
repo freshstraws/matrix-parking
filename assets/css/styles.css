@@ -249,7 +249,7 @@
   .section-lead {
     font-size: 16px;
     color: var(--muted);
-    max-width: 620px;
+    max-width: none;
     line-height: 1.75;
     margin-bottom: 36px;
   }
@@ -864,7 +864,7 @@
     font-size: 15px;
     color: rgba(255,255,255,0.6);
     margin-bottom: 48px;
-    max-width: 480px;
+    max-width: none;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1064,7 +1064,7 @@
     font-weight: 900; line-height: 1.08; color: white;
   }
   .page-hero h1 em { font-style: normal; color: var(--gold); }
-  .page-hero p { margin-top: 14px; max-width: 620px; color: rgba(255,255,255,0.72); font-size: 15.5px; line-height: 1.7; }
+  .page-hero p { margin-top: 14px; color: rgba(255,255,255,0.72); font-size: 15.5px; line-height: 1.7; }
 
   /* ─── SUBSECTION ANCHOR TAG ─── */
   .anchor-pad { scroll-margin-top: 88px; }
