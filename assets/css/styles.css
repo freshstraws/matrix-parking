@@ -1520,3 +1520,7 @@
     max-width: 280px;
   }
   @media (max-width: 900px){ .qr-demo-box { margin-top: 4px; } }
+
+  /* Thẻ sản phẩm có ảnh thật (banner) — hiện đầy đủ ảnh */
+  .cat-thumb.has-img { height: auto; min-height: 0; background: none; padding: 0; }
+  .cat-thumb.has-img img { width: 100%; height: auto; display: block; }
