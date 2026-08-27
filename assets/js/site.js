@@ -35,7 +35,7 @@
     { page: "home", label: "Trang chủ", href: "index.html" },
     { page: "about", label: "Giới thiệu", href: "ve-chung-toi/" },
     { page: "product", label: "Sản phẩm", href: "san-pham/", children: [
-      { sub: "bai-do-thong-minh", label: "Bãi đỗ xe thông minh", href: "san-pham/bai-do-xe-thong-minh.html" },
+      { sub: "bai-do-thong-minh", label: "Hệ thống đỗ xe thông minh", href: "san-pham/bai-do-xe-thong-minh.html" },
       { sub: "cau-nang", label: "Cầu nâng đỗ xe 2 tầng", href: "san-pham/cau-nang.html" },
       { sub: "cong-kiem-soat", label: "Cổng kiểm soát xe ra vào", href: "san-pham/cong-kiem-soat.html" }
     ]},
@@ -51,7 +51,7 @@
     { t: "Trang chủ", s: "Tổng quan giải pháp bãi đỗ xe thông minh", u: "index.html", k: "trang chu home tong quan" },
     { t: "Giới thiệu", s: "Thiên Sứ · 17 năm · 100+ dự án · năng lực ELV + M&E", u: "ve-chung-toi/", k: "gioi thieu cong ty thien su lich su nang luc" },
     { t: "Năng lực Công ty", s: "Đối tác ELV + M&E, vốn 100 tỷ", u: "ve-chung-toi/#nang-luc", k: "nang luc doi tac hikvision aruba viettel fpt" },
-    { t: "Bãi đỗ xe thông minh", s: "Bãi đỗ tự động Matrix — vấn đề, giải pháp, cấu tạo, đối tượng, so sánh", u: "san-pham/bai-do-xe-thong-minh.html", k: "bai do xe thong minh matrix xep hinh thang nang pallet van de giai phap cau tao doi tuong so sanh tang ham" },
+    { t: "Hệ thống đỗ xe thông minh", s: "Bãi đỗ tự động Matrix — vấn đề, giải pháp, cấu tạo, đối tượng, so sánh", u: "san-pham/bai-do-xe-thong-minh.html", k: "bai do xe thong minh matrix xep hinh thang nang pallet van de giai phap cau tao doi tuong so sanh tang ham" },
     { t: "Cầu nâng đỗ xe 2 tầng", s: "Gấp đôi chỗ đỗ trên cùng vị trí", u: "san-pham/cau-nang.html", k: "cau nang do xe 2 tang car lift nha pho showroom garage thuy luc" },
     { t: "Cổng kiểm soát xe ra vào", s: "Barrier tự động + LPR nhận diện biển số", u: "san-pham/cong-kiem-soat.html", k: "cong kiem soat ra vao barrier lpr nhan dien bien so tinh phi" },
     { t: "Bảng giá dự án", s: "3 gói dịch vụ + bảng giá theo quy mô", u: "bao-gia/bang-gia.html", k: "bao gia bang gia goi dich vu epc" },
