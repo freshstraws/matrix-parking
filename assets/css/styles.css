@@ -109,7 +109,7 @@
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--gold);
+    color: #fff;
     margin-bottom: 18px;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@
   }
   .cover-title em {
     font-style: normal;
-    color: var(--gold);
+    color: #fff;
   }
 
   .cover-subtitle {
@@ -194,7 +194,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    color: var(--gold);
+    color: #fff;
   }
   .stat-card.featured .stat-unit { color: #fff; }
 
@@ -288,7 +288,7 @@
     font-size: 17px;
     font-weight: 700;
     margin-bottom: 10px;
-    color: var(--gold);
+    color: #fff;
   }
 
   .problem-desc {
@@ -318,7 +318,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    color: var(--gold);
+    color: #fff;
     letter-spacing: 1px;
     margin-bottom: 28px;
     text-transform: uppercase;
@@ -341,7 +341,7 @@
   }
 
   .floor-label {
-    color: var(--gold);
+    color: #fff;
     font-size: 11px;
     font-weight: 600;
     width: 70px;
@@ -380,7 +380,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
     font-weight: 900;
-    color: var(--gold);
+    color: #fff;
     line-height: 1;
   }
   .mini-stat-label {
@@ -576,7 +576,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: var(--gold);
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 28px;
@@ -805,7 +805,7 @@
   }
   .compare-table th:nth-child(3) {
     background: var(--navy);
-    color: var(--gold);
+    color: #fff;
     text-align: center;
   }
 
@@ -848,7 +848,7 @@
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--gold);
+    color: #fff;
     margin-bottom: 16px;
   }
 
@@ -890,7 +890,7 @@
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--gold);
+    color: #fff;
     margin-bottom: 8px;
   }
 
@@ -1057,13 +1057,13 @@
   }
   .page-hero .container { position: relative; z-index: 2; }
   .breadcrumb { font-size: 13px; color: rgba(255,255,255,0.6); margin-bottom: 14px; }
-  .breadcrumb a:hover { color: var(--gold); }
+  .breadcrumb a:hover { color: #fff; }
   .breadcrumb .sep { margin: 0 8px; opacity: .5; }
   .page-hero h1 {
     font-family: 'Barlow Condensed', sans-serif; font-size: clamp(32px,4.4vw,50px);
     font-weight: 900; line-height: 1.08; color: white;
   }
-  .page-hero h1 em { font-style: normal; color: var(--gold); }
+  .page-hero h1 em { font-style: normal; color: #fff; }
   .page-hero p { margin-top: 14px; color: rgba(255,255,255,0.72); font-size: 15.5px; line-height: 1.7; }
 
   /* ─── SUBSECTION ANCHOR TAG ─── */
@@ -1080,7 +1080,7 @@
   .vmv-icon {
     width: 58px; height: 58px; border-radius: 14px; display: flex; align-items: center;
     justify-content: center; font-size: 26px; margin-bottom: 20px;
-    background: linear-gradient(135deg,var(--navy),var(--steel)); color: var(--gold);
+    background: linear-gradient(135deg,var(--navy),var(--steel)); color: #fff;
   }
   .vmv-card h3 {
     font-family: 'Barlow Condensed', sans-serif; font-size: 24px; font-weight: 700;
@@ -1186,7 +1186,7 @@
   }
   .ci-row .lbl { font-size: 12px; color: rgba(255,255,255,0.55); }
   .ci-row .val { font-size: 15px; font-weight: 600; color: white; margin-top: 2px; }
-  .ci-row .val a:hover { color: var(--gold); }
+  .ci-row .val a:hover { color: #fff; }
 
   .contact-form {
     background: white; border: 1px solid var(--border); border-radius: 20px; padding: 38px 36px;
@@ -1248,7 +1248,7 @@
   .footer-col ul { list-style: none; }
   .footer-col li { margin-bottom: 10px; }
   .footer-col a { font-size: 13.5px; color: rgba(255,255,255,0.7); transition: color .2s; }
-  .footer-col a:hover { color: var(--gold); }
+  .footer-col a:hover { color: #fff; }
   .footer-contact-row { display: flex; gap: 10px; margin-bottom: 12px; font-size: 13.5px; }
   .footer-contact-row .fi { color: var(--gold); }
   .footer-bottom {
@@ -1503,7 +1503,7 @@
   }
   .stat-item b {
     display: block; font-family: 'Barlow Condensed',sans-serif; font-size: 34px; font-weight: 900;
-    color: var(--gold); line-height: 1;
+    color: #fff; line-height: 1;
   }
   .stat-item span { font-size: 12.5px; color: rgba(255,255,255,0.72); }
   @media (max-width: 700px){ .stats-strip { grid-template-columns: 1fr 1fr; gap: 22px; } }
