@@ -1238,7 +1238,7 @@
   /* ─── FOOTER ─── */
   .site-footer { background: var(--navy); color: rgba(255,255,255,0.7); padding: 56px 0 0; }
   .footer-grid { max-width: 1180px; margin: 0 auto; padding: 0 40px 44px;
-    display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 40px; }
+    display: grid; grid-template-columns: 1.6fr 1fr 1.3fr; gap: 40px; }
   .footer-col h5 {
     font-family:'Barlow Condensed',sans-serif; font-size: 16px; font-weight: 700; color: white;
     text-transform: uppercase; letter-spacing: 1px; margin-bottom: 18px;

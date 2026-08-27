@@ -105,7 +105,6 @@
         '<p>' + CO.name + ' — đơn vị tư vấn, thiết kế và thi công hệ thống bãi đỗ xe tự động thông minh Matrix Automatic Parking.</p>' +
         '<p style="margin-top:10px;">MST: ' + CO.mst + '</p>' +
       '</div>' +
-      '<div class="footer-col"><h5>Liên kết</h5><ul>' + quick + '</ul></div>' +
       '<div class="footer-col"><h5>Sản phẩm</h5><ul>' + prod + '</ul></div>' +
       '<div class="footer-col"><h5>Liên hệ</h5>' +
         '<div class="footer-contact-row"><span class="fi">📍</span><span>' + CO.address + '</span></div>' +
@@ -116,7 +115,6 @@
     '</div>' +
     '<div class="footer-bottom">' +
       '<span>© ' + new Date().getFullYear() + ' ' + CO.name + '. Bảo lưu mọi quyền.</span>' +
-      '<span>Thiết kế website · Matrix Automatic Parking</span>' +
     '</div></footer>';
   }
 
