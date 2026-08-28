@@ -27,7 +27,7 @@
     address: "15 Kinh Dương Vương, Phường Phú Lâm, TP. Hồ Chí Minh",
     mst: "0308295645",
     zalo: "0918222474",                  // Mr. Tuấn - Phó Giám đốc Kinh doanh
-    catalogue: "bao-gia/"                // TODO: thay bằng link file catalogue PDF khi có
+    catalogue: "assets/catalog-parking.pdf"  // file catalogue PDF
   };
 
   // hrefs are RELATIVE (no leading slash); P() adds the base prefix.
@@ -123,7 +123,7 @@
     '<div class="floating-cta">' +
       '<a class="fcta primary" href="' + P("lien-he/") + '">Nhận báo giá <span class="arw">→</span></a>' +
       '<a class="fcta ghost" href="' + P("san-pham/") + '">Xem sản phẩm <span class="arw">→</span></a>' +
-      '<a class="fcta ghost" href="' + P(CO.catalogue) + '">Tải catalogue <span class="arw">→</span></a>' +
+      '<a class="fcta ghost" href="' + P(CO.catalogue) + '" target="_blank" rel="noopener">Tải catalogue <span class="arw">→</span></a>' +
     '</div>' +
     '<a class="chat-fab" href="https://zalo.me/' + CO.zalo + '" target="_blank" rel="noopener"><span class="dot"></span> Chat Zalo</a>' +
     '<div class="search-overlay" id="search-overlay"><div class="search-box">' +
